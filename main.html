@@ -8,7 +8,7 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-	<table border="1" width =340px;>
+	<table border="1"  id="table-1" width =340px;>
 		<caption> HTML Assignment 3</caption>
 		<tr>
 			<td style="text-align: left;">left</td>
@@ -26,77 +26,64 @@
 		</tr>
 	</table>
 	
-	    <table id="table-2">
-        <!-- First row: single empty cell spanning 6 columns -->
-        <tr>
-            <td id="t21" colspan="6"></td>
-        </tr>
-        
-        <!-- Second row -->
-        <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
+	   <table id="table-2">
+    <!-- Top Full-Width Row -->
+    <tr>
+      <td colspan="5" id="t21"></td>
+    </tr>
 
-        <!-- Third row -->
-        <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
+    <!-- Second Row -->
+    <tr>
+      <td rowspan="3"></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
 
-        <!-- Fourth row -->
-        <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
+    <!-- Third Row -->
+    <tr>
+      <td colspan="3"></td>
+      <td rowspan="2"></td>
+    </tr>
 
-        <!-- Fifth row -->
-        <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
+    <!-- Fourth Row -->
+    <tr>
+      <td colspan="3"></td>
+    </tr>
 
-        <!-- Sixth row -->
-        <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-    </table>
- <table id="table-3" class="middle">
-        <tr class="green">
-            <td colspan="3"></td>
-        </tr>
-        <tr>
-            <td></td>
-            <td id="t-image">
-                <img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/4b/Michael_Jordan_in_1997.jpg/220px-Michael_Jordan_in_1997.jpg" alt="Sample Image">
-            </td>
-            <td></td>
-        </tr>
-        <tr class="blue">
-            <td colspan="3"></td>
-        </tr>
-    </table>
+    <!-- Fifth Row -->
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+
+    <!-- Bottom Full-Width Row -->
+    <tr>
+      <td colspan="5"></td>
+    </tr>
+  </table>
+
+       
+ <table class="middle" id="table-3">
+    <tr class="green">
+      <td colspan="3"></td>
+    </tr>
+    <tr>
+      <td width="60px;"></td>
+      <td id="t-image">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Full_attention_%288067543690%29.jpg/1280px-Full_attention_%288067543690%29.jpg"
+             alt="Dog Image" width="200">
+      </td>
+      <td width="60px;"></td>
+    </tr>
+    <tr class="blue">
+      <td colspan="3"></td>
+    </tr>
+  </table>
     <script type="text/javascript" src="./script.js">
 </script>
 
